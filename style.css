@@ -19,7 +19,7 @@
 
 img, picture, video, canvas, svg {
     display: block;
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 input, button, textarea, select {
@@ -99,6 +99,17 @@ body {
     grid-column: 4;
     grid-row: 1 / 4;
     background-color: var(--Purple-100);
+    gap: 1rem;
+
+    img {
+        width: 300px;
+        position: relative;
+        left: 80px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
 }
 
 .card-4 {
@@ -116,19 +127,36 @@ body {
     grid-column: 2;
     grid-row: 3;
     background-color: var(--White);
+    gap: 1rem;
+
+    img {
+        width: 283px;
+    }
 }
 
 .card-6 {
     grid-column: 2;
     grid-row: 4;
     background-color: var(--White);
+    gap: 1.6rem;
+    text-align: left;
+
+    p {
+        font-size: 1rem;
+    }
 }
 
 .card-7 {
     grid-column: 3;
     grid-row: 3;
-
+    gap: 1rem;
     background-color: var(--Yellow-500);
+    align-items: center;
+
+    img {
+        width: 200px;
+        
+    }
 }
 
 .card-8 {
@@ -148,7 +176,7 @@ body {
 }
 
 #big-num {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 600;
 }
 

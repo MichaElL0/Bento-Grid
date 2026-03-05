@@ -45,7 +45,7 @@ body {
     width: max-content;
     display: grid;
     grid-template-columns: repeat(4, 230px);
-    grid-template-rows: repeat(6, 100px);
+    grid-template-rows: repeat(6, 115px);
     grid-template-areas:
     "card1 card2 card2 card3"
     "card1 card2 card2 card3"
@@ -104,15 +104,18 @@ body {
 .card-3 {
     grid-area: card3;
     background-color: var(--Purple-100);
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
     gap: 1rem;
 
     img {
-        width: 300px;
-        margin-right: -160px;
+        width: 180%;
+        margin-right: -140px;
     }
 
     p {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -123,7 +126,7 @@ body {
     justify-content: space-between;
 
     img {
-        width: 200px;
+        width: 100%;
     }
 }
 

@@ -133,7 +133,7 @@ body {
     gap: 1rem;
 
     img {
-        width: 283px;
+        width: 282px;
     }
 }
 
@@ -155,8 +155,8 @@ body {
     align-items: center;
 
     img {
-        width: 200px;
-        
+        width: 190px;
+        margin-bottom: -90px;
     }
 }
 

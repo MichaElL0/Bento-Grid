@@ -103,8 +103,7 @@ body {
 
     img {
         width: 300px;
-        position: relative;
-        left: 80px;
+        margin-right: -160px;
     }
 
     p {
@@ -116,6 +115,7 @@ body {
     grid-column: 1;
     grid-row: 3 / 5;
     background-color: var(--Yellow-500);
+    align-items: flex-start;
     justify-content: space-between;
 
     img {
@@ -164,6 +164,13 @@ body {
     grid-row: 4;
     background-color: var(--Purple-500);
     color: var(--White);
+    flex-direction: row;
+    gap: 1rem;
+    text-align: left;
+
+    img {
+        width: 200px;
+    }
 }
 
 #dif-color {

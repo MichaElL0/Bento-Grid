@@ -2,6 +2,8 @@
 
 ![Design preview for the Bento grid coding challenge](./preview.jpg)
 
+Live site: https://michaell0.github.io/Bento-Grid/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
